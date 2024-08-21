@@ -1,0 +1,6 @@
+# A book
+
+```{r, tbl-my-table}
+df <- as.data.frame(matrix(runif(n=10, min=1, max=20), nrow=5))
+kableExtra::kable_styling(kableExtra::kable(df, caption = 'Text {text}'))
+```
